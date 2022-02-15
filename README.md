@@ -1,2 +1,7 @@
 # causality-course
+
+
+## Syllabus
+
+## References
  
