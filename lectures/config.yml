@@ -1,0 +1,18 @@
+# in _config.yml
+title: "Causal Inference course"
+author: Ci2Lab
+
+execute:
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/Ci2Lab/causality-course
+html:
+  use_issues_button: true
+  google_analytics_id: UA-97848161-1
+
+exclude_patterns: [_build, .DS_Store, "**.ipynb_checkpoints"]
+
+sphinx:
+  config:
+    language: en
