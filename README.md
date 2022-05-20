@@ -6,7 +6,7 @@ This course is an overview of applied causal inference. The course starts with a
 
 This is an under development course, so keep tracking our course and let us know your feedback.
 
-Thanks
+Thanks\\
 Reza Arghandeh & Michele Gazzea
 
 ### Goals:
