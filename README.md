@@ -4,9 +4,11 @@
 
 This course is an overview of applied causal inference. The course starts with an introduction to causal inference. Then, we talk about moving from observation to intervention. We learn about directed acyclic graphs and non-parametric structural equation models to create causal models. Furthermore, we use various realistic examples to understand better the concepts we introduced in each chapter. By the end of this course, students will be able to develop familiarity with causal models for investigating a wide range of questions about the world works. 
 
+
 This is an under development course, so keep tracking our course and let us know your feedback.
 
-Thanks\\
+Thanks
+
 Reza Arghandeh & Michele Gazzea
 
 ### Goals:
