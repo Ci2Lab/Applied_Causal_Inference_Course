@@ -1,7 +1,0 @@
-format: jb-book
-root: landing-page
-parts:
-- caption: Part I - The Yang
-  chapters:
-  - file: CH-1-Introduction-to-Causality.ipynb
-  - file: CH-2-Observation-to-Intervention.ipynb
