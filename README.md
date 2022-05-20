@@ -1,6 +1,6 @@
 # causality-course
 
-![img](lectures/img/causality_intro.jpg)
+![img](lectures/img/causality_intro_image.png)
 
 This course presents a general framework for causal inference. Directed acyclic graphs and non-parametric structural equation models are used to define the causal model. Causal parameters are defined using counterfactuals and interventional models. By the end of this course, students will be able to develop familiarity with causal models for investigating a wide range of questions about the world works. 
 
@@ -31,4 +31,10 @@ Here is a simple footnote[^1]. With some additional text after it.
 [^1]: My reference.
 
 ## Acknowledgments
+
+This course is developed by a partial support from RCN-INTPART DTRF Project.
+https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
+
+
+
  
