@@ -1,4 +1,4 @@
-# Applied_Causal_Inference-Course
+# Applied Causal Inference Course
 
 ![img](lectures/img/causality_intro_image.png)
 
