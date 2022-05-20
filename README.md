@@ -21,8 +21,24 @@ This course presents a general framework for causal inference. Directed acyclic 
 3. Understand the properties of causal models. 
 4. Begin to develop familiarity with the uses of causal models for investigating a wide range of questions about the real world. 
 
-## Syllabus
 
+# Lectures
+
+- Chapter 1 - [Introduction to Causality](./lectures/CH-1-Introduction-to-Causality.ipynb)
+
+- Chapter 2 - [Observation to Intervention](./lectures/CH-2-Observation-to-Intervention.ipynb)
+    - [Discussion](./lectures/CH-2-Discussion-Observation-to-Intervention.ipynb) 
+
+- Chapter 3 - [Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb)
+    - [Discussion](./lectures/Discussion-CH-3-Graphical-Causal-Models.ipynb) 
+
+- Chapter 4 - [Structured Causal Models](./lectures/CH-4-SCM.ipynb)
+
+- Chapter 5 - [How to build a SCM](./lectures/CH-5-How-to-build-SCM.ipynb)
+
+
+
+## Syllabus
 
 ## References
 
