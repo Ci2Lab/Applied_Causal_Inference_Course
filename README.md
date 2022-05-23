@@ -54,16 +54,19 @@ https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
 
 ## Reading suggestions
 
-Not Free, 2018 Concept:
+Not Free, 2018, Causal Inference Concept:
+[link](http://bayes.cs.ucla.edu/WHY/)
 
 ![img](lectures/img/Book_of_why.jpg)
 
 
-Free, 2019 Application + ML:
+Free, 2019 ML for Causal Inference:
+[link](https://mitpress.mit.edu/books/elements-causal-inference)
 
 ![img](lectures/img/elements_of_causal_inference_book.jpg)
 
-Free, 2020 Theory:
+Free, 2020 Causal Inference Theory:
+[link](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
 ![img](lectures/img/What_if.jpg)
  
