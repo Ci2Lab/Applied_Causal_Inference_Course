@@ -9,7 +9,7 @@ This is an under development course, so keep tracking our course and let us know
 
 Thanks
 
-Reza Arghandeh & Michele Gazzea
+[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh) & [Michele Gazzea](https://www.hvl.no/en/employee/?user=Michele.Gazzea&user=Michele.Gazzea)
 
 ### Goals:
 - Information-era literacy: learning to be informed citizens, consumers, and hopefully producers of information.
