@@ -45,13 +45,6 @@ Reza Arghandeh & Michele Gazzea
 
 
 
-## Acknowledgments
-
-This course is developed by a partial support from RCN-INTPART DTRF Project.
-https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
-
-
-
 ## Reading suggestions
 
 Not Free, 2018, Causal Inference Concept:
@@ -72,3 +65,16 @@ Free, 2020 Causal Inference Theory:
  
 
 
+## Acknowledgments
+
+This course is developed by a partial support from RCN-INTPART DTRF Project.
+https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
+
+
+## Course offering
+
+|   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
+|---|---------------------------------------------|---------------------------|-------------|--------------|----------|
+|   | IE-AUT 6: Introduction to Causal Inference  | University of Padova      | Italy       | Summer       | 2022     |
+|   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
+|   |                                             |                           |             |              |          |
