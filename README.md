@@ -52,4 +52,17 @@ https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
 
 
 
+## Reading suggestions
+
+Not Free, 2018 Concept:
+![img](lectures/img/Book_of_why.jpg)
+
+Free, 2019 Application + ML:
+![img](lectures/img/elements_of_causal_inference_book.jpg)
+
+Free, 2020 Theory:
+
+![img](lectures/img/What_if.jpg)
  
+
+
