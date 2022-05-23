@@ -44,6 +44,13 @@ Reza Arghandeh & Michele Gazzea
 - Chapter 5 - [How to build a Structured Causal Model](./lectures/CH-5-How-to-build-SCM.ipynb)
 
 
+## Course offering
+
+|   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
+|---|---------------------------------------------|---------------------------|-------------|--------------|----------|
+|   | IE-AUT 6: Introduction to Causal Inference  | University of Padova      | Italy       | Summer       | 2022     |
+|   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
+|   |                                             |                           |             |              |          |
 
 ## Reading suggestions
 
@@ -71,10 +78,3 @@ This course is developed by a partial support from RCN-INTPART DTRF Project.
 https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
 
 
-## Course offering
-
-|   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
-|---|---------------------------------------------|---------------------------|-------------|--------------|----------|
-|   | IE-AUT 6: Introduction to Causal Inference  | University of Padova      | Italy       | Summer       | 2022     |
-|   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
-|   |                                             |                           |             |              |          |
