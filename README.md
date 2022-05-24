@@ -9,7 +9,7 @@ This is an under development course, so keep tracking our course and let us know
 
 Thanks
 
-Reza Arghandeh & Michele Gazzea
+[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh) & [Michele Gazzea](https://www.hvl.no/en/employee/?user=Michele.Gazzea&user=Michele.Gazzea)
 
 ### Goals:
 - Information-era literacy: learning to be informed citizens, consumers, and hopefully producers of information.
@@ -44,6 +44,33 @@ Reza Arghandeh & Michele Gazzea
 - Chapter 5 - [How to build a Structured Causal Model](./lectures/CH-5-How-to-build-SCM.ipynb)
 
 
+## Course offering
+
+|   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
+|---|---------------------------------------------|---------------------------|-------------|--------------|----------|
+|   | IE-AUT 6: Introduction to Causal Inference  | University of Padova      | Italy       | Summer       | 2022     |
+|   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
+|   |                                             |                           |             |              |          |
+
+## Reading suggestions
+
+Not Free, 2018, Causal Inference Concept:
+[link](http://bayes.cs.ucla.edu/WHY/)
+
+![img](lectures/img/Book_of_why.jpg)
+
+
+Free, 2019 ML for Causal Inference:
+[link](https://mitpress.mit.edu/books/elements-causal-inference)
+
+![img](lectures/img/elements_of_causal_inference_book.jpg)
+
+Free, 2020 Causal Inference Theory:
+[link](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+
+![img](lectures/img/What_if.jpg)
+ 
+
 
 ## Acknowledgments
 
@@ -51,5 +78,3 @@ This course is developed by a partial support from RCN-INTPART DTRF Project.
 https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
 
 
-
- 
