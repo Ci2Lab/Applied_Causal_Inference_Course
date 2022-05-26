@@ -37,7 +37,7 @@ Thanks
     - [Discussion](./lectures/CH-2-Discussion-Observation-to-Intervention.ipynb) 
 
 - Chapter 3 - [Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb)
-    - [Discussion](./lectures/Discussion-CH-3-Graphical-Causal-Models.ipynb) 
+    - [Discussion](./lectures/CH-3-Discussion-Graphical-Causal-Models.ipynb) 
 
 - Chapter 4 - [Structured Causal Models](./lectures/CH-4-SCM.ipynb)
 
