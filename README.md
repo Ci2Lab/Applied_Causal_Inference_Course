@@ -43,6 +43,8 @@ Thanks
 
 - Chapter 5 - [How to build a Structured Causal Model](./lectures/CH-5-How-to-build-SCM.ipynb)
 
+- Chapter 6 - [Structure learning](./lectures/CH-6-Causal-structure-learning.ipynb)
+
 
 ## Course offering
 
