@@ -46,6 +46,7 @@ Thanks
 - Chapter 6 - [Structure learning](./lectures/CH-6-Causal-structure-learning.ipynb)
 
 
+
 ## Course offering
 
 |   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
@@ -54,7 +55,13 @@ Thanks
 |   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
 |   |                                             |                           |             |              |          |
 
-## Reading suggestions
+
+## Suggested Python libraries 
+
+TODO
+
+
+## Suggested books
 
 Not Free, 2018, Causal Inference Concept:
 [link](http://bayes.cs.ucla.edu/WHY/)
