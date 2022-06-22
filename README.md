@@ -31,19 +31,14 @@ Thanks
 
 # Lectures
 
-- Chapter 1 - [Introduction to Causality](./lectures/CH-1-Introduction-to-Causality.ipynb)
-
-- Chapter 2 - [Observation to Intervention](./lectures/CH-2-Observation-to-Intervention.ipynb)
-    - [Discussion](./lectures/CH-2-Discussion-Observation-to-Intervention.ipynb) 
-
-- Chapter 3 - [Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb)
-    - [Discussion](./lectures/CH-3-Discussion-Graphical-Causal-Models.ipynb) 
-
-- Chapter 4 - [Structured Causal Models](./lectures/CH-4-SCM.ipynb)
-
-- Chapter 5 - [How to build a Structured Causal Model](./lectures/CH-5-How-to-build-SCM.ipynb)
-
-- Chapter 6 - [Structure learning](./lectures/CH-6-Causal-structure-learning.ipynb)
+|   | **Chapter**                    | **Discussion**            | 
+|---|---------------------------------------------|---------------------------|
+|   | 1-[Introduction to Causality](./lectures/CH-1-Introduction-to-Causality.ipynb)  |       | 
+|   | 2-[Observation to Intervention](./lectures/CH-2-Observation-to-Intervention.ipynb)   |  [Discussion](./lectures/CH-2-Discussion-Observation-to-Intervention.ipynb)       | 
+|   | 3-[Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb) |  [Discussion](./lectures/CH-3-Discussion-Graphical-Causal-Models.ipynb)  |
+|   | 4-[Structured Causal Models](./lectures/CH-4-SCM.ipynb) |    |
+|   | 5-[How to build a Structured Causal Model](./lectures/CH-5-How-to-build-SCM.ipynb) |    |
+|   | 6-[Structure learning](./lectures/CH-6-Causal-structure-learning.ipynb) |    |
 
 
 
@@ -58,7 +53,11 @@ Thanks
 
 ## Suggested Python libraries 
 
-TODO
+- [DoWhy](https://py-why.github.io/dowhy/index.html). A Python library that provides several tools for causal inference, modeling causal assumptions and validating them.
+
+- [pgmpy](https://pgmpy.org/). Pure python implementation for Bayesian Networks. Implementations of various alogrithms for Structure Learning, Parameter Estimation, Approximate (Sampling Based) and Exact inference, and Causal Inference are available.
+
+- [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html). Library for learning the graphical structure of Bayesian networks in Python. Build on top of the pgmpy library but a bit easier to use.
 
 
 ## Suggested books
