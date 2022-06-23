@@ -39,6 +39,7 @@ Thanks
 |   | 4-[Structured Causal Models](./lectures/CH-4-SCM.ipynb) |    |
 |   | 5-[How to build a Structured Causal Model](./lectures/CH-5-How-to-build-SCM.ipynb) |    |
 |   | 6-[Structure learning](./lectures/CH-6-Causal-structure-learning.ipynb) |    |
+|   | 7-[A real-world example: Hotel Booking Cancellations](./lectures/CH-7-Hotel.ipynb)
 
 
 
