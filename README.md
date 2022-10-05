@@ -37,9 +37,8 @@ Thanks
 |   | 2-[Observation to Intervention](./lectures/CH-2-Observation-to-Intervention.ipynb)   |  [Discussion](./lectures/CH-2-Discussion-Observation-to-Intervention.ipynb)       | 
 |   | 3-[Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb) |  [Discussion](./lectures/CH-3-Discussion-Graphical-Causal-Models.ipynb)  |
 |   | 4-[Structured Causal Models](./lectures/CH-4-SCM.ipynb) |    |
-|   | 5-[How to build a Structured Causal Model](./lectures/CH-5-How-to-build-SCM.ipynb) |    |
-|   | 6-[Structure learning](./lectures/CH-6-Causal-structure-learning.ipynb) |   [Discussion](./lectures/CH-6-Discussion-Causal-structure-learning.ipynb)  |
-|   | 7-[A real-world example: Hotel Booking Cancellations](./lectures/CH-7-Hotel.ipynb)
+|   | 5-[Structure learning](./lectures/CH-6-Causal-structure-learning.ipynb) |   [Discussion](./lectures/CH-6-Discussion-Causal-structure-learning.ipynb)  |
+|   | 6-[A real-world example: Hotel Booking Cancellations](./lectures/CH-7-Hotel.ipynb)
 
 
 
