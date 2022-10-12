@@ -42,7 +42,7 @@ Thanks
 
 
 
-## Course offering
+## Course Offering
 
 |   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
 |---|---------------------------------------------|---------------------------|-------------|--------------|----------|
@@ -51,7 +51,7 @@ Thanks
 |   |                                             |                           |             |              |          |
 
 
-## Suggested Python libraries 
+## Suggested Python Libraries 
 
 - [DoWhy](https://py-why.github.io/dowhy/index.html). A Python library that provides several tools for causal inference, modeling causal assumptions and validating them.
 
@@ -60,7 +60,7 @@ Thanks
 - [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html). Library for learning the graphical structure of Bayesian networks in Python. Build on top of the pgmpy library but a bit easier to use.
 
 
-## Suggested books
+## Suggested Books
 
 Not Free, 2018, Causal Inference Concept:
 [link](http://bayes.cs.ucla.edu/WHY/)
@@ -78,6 +78,14 @@ Free, 2020 Causal Inference Theory:
 
 ![img](lectures/img/What_if.jpg)
  
+
+## Suggested Blogs
+
+*Bringing More Causality to Analytics*, by Motif Analytics Inc., 2022 [Link](https://motifanalytics.medium.com/bringing-more-causality-to-analytics-d378108bb15)
+
+*Causality for Machine Learning* by Cloudera Inc., 2020 [Link](https://ff13.fastforwardlabs.com/#why-are-we-interested-in-causal-inference%3F)
+
+*From How to Why* by Ericsson, 2020 [Link](https://www.ericsson.com/en/blog/2020/2/causal-inference-machine-learning)
 
 
 ## Acknowledgments
