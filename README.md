@@ -88,6 +88,10 @@ Free, 2020 Causal Inference Theory:
 *From How to Why* by Ericsson, 2020 [Link](https://www.ericsson.com/en/blog/2020/2/causal-inference-machine-learning)
 
 
+## Suggested Papers
+
+*Causal Machine Learning: A Survey and Open Problems*,Jean Kaddour, et, al., 2022 [Link](https://arxiv.org/abs/2206.15475v2)
+
 ## Acknowledgments
 
 This course is developed by a partial support from RCN-INTPART DTRF Project.
