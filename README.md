@@ -9,24 +9,20 @@ This is an under development course, so keep tracking our course and let us know
 
 Thanks
 
-[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh) & [Michele Gazzea](https://www.hvl.no/en/employee/?user=Michele.Gazzea&user=Michele.Gazzea)
+[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh), [Michele Gazzea](https://www.hvl.no/en/employee/?user=Michele.Gazzea&user=Michele.Gazzea) & [Amir Miraki](https://www.hvl.no/en/employee/?user=Amir.Miraki)
 
 ### Goals:
 - Information-era literacy: learning to be informed citizens, consumers, and hopefully producers of information.
 - Understand sources of bias in data (a big challenge in data science). 
 - Understand the importance of the causal discovery. 
 - Understand the basics of causal models. 
-- Ask causal questions: 
-    - for the sake of science 
-    - for better decision-making in daily life.
 
 
 
 ### Learning Objectives:
-1. Understand the difference of causal inference with statistics and machine learning. 
-2. Translate scientific questions and background knowledge into a causal model. 
-3. Understand properties of causal models. 
-4. Begin to develop familiarity with the uses of causal models for investigating a wide range of questions about the real world. 
+1. Translate scientific questions and background knowledge into a causal model. 
+2. Understand properties of causal models. 
+3. Begin to develop familiarity with the uses of causal models for investigating a wide range of questions about the real world. 
 
 
 # Lectures
@@ -39,6 +35,7 @@ Thanks
 |   | 4-[Structured Causal Models](./lectures/CH-4-SCM.ipynb) |    |
 |   | 5-[Structure learning](./lectures/CH-5-Causal-structure-learning.ipynb) |   [Discussion](./lectures/CH-5-Discussion-Causal-structure-learning.ipynb)  |
 |   | 6-[A real-world example: Hotel Booking Cancellations](./lectures/CH-6-Hotel.ipynb)
+|   | 7-[Time series]()
 
 
 
@@ -48,6 +45,7 @@ Thanks
 |---|---------------------------------------------|---------------------------|-------------|--------------|----------|
 |   | IE-AUT 6: Introduction to Causal Inference  | University of Padova      | Italy       | Summer       | 2022     |
 |   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
+|   | IE-AUT 6: Applied Causal Inference         | University of Padova      | Italy       | Summer       | 2023     |
 |   |                                             |                           |             |              |          |
 
 
@@ -87,10 +85,6 @@ Free, 2020 Causal Inference Theory:
 
 *From How to Why* by Ericsson, 2020 [Link](https://www.ericsson.com/en/blog/2020/2/causal-inference-machine-learning)
 
-
-## Suggested Papers
-
-*Causal Machine Learning: A Survey and Open Problems*,Jean Kaddour, et, al., 2022 [Link](https://arxiv.org/abs/2206.15475v2)
 
 ## Acknowledgments
 
