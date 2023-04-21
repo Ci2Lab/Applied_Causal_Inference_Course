@@ -1,5 +1,9 @@
 import numpy as np
 import pandas as pd
+import bnlearn as bn
+import graphviz as gr
+import networkx as nx
+import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import PolynomialFeatures
 
@@ -372,3 +376,91 @@ def generate_exercise_dataset_2(n_samples=500, set_X=None):
 
 def _sigma(x):
     return 1 / (1 + np.exp(-x))
+
+
+
+
+""" Generate a pandas DataFrame sampled from the 'dyspnoea' dataset """
+def generate_dyspnoea_dataset():
+    """ Generates the dyspnea dataset. It load the data from https://www.bnlearn.com/bnrepository/
+    but it dropes the 'either' node, which is confusing 
+    """
+    # Original dataset. We are not using that
+    # DAG = bn.import_DAG('asia')
+    
+    # Define the network structure
+    edges = [('asia', 'tub'),
+             ('tub', 'dysp'),
+             ('tub', 'xray'),
+              ('lung', 'xray'),
+              ('lung', 'dysp'),
+              ('smoke', 'lung'),
+              ('smoke', 'bronc'),
+              ('bronc', 'dysp')]
+    
+    DAG = bn.make_DAG(edges)
+    df = bn.import_example('asia')
+    DAG = bn.parameter_learning.fit(DAG, df, methodtype='bayes', verbose = 0)
+    df = bn.sampling(DAG, n=10000)
+    
+    df = df.rename(columns = {'asia' : 'tuberculosis_area', 
+                                'tub' : 'tuberculosis', 
+                                'lung' : 'lung_cancer',
+                                'bronc' : 'bronchitis',
+                                'dysp' : 'dyspnea'})
+        
+    return df
+
+
+def plot_dyspnoea_dataset():
+    # plot ground truth using bnlearn
+    # plt.figure();
+    # params_static = {
+    #     'layout' : 'graphvix_layout'
+    #     }   
+    
+    # G = bn.plot(DAG, node_color='red', node_size=5000, params_static = params_static)
+
+    # plot using nx
+    plt.figure();
+    
+    edges = [('tuberculosis_area', 'tuberculosis'),
+             ('tuberculosis', 'dyspnea'),
+             ('tuberculosis', 'xray'),
+              ('lung_cancer', 'xray'),
+              ('lung_cancer', 'dyspnea'),
+              ('smoke', 'lung_cancer'),
+              ('smoke', 'bronchitis'),
+              ('bronchitis', 'dyspnea')]
+    
+    DAG = bn.make_DAG(edges)
+    graph = nx.DiGraph(DAG['adjmat'])
+    pos = nx.nx_agraph.graphviz_layout(graph, prog="neato")
+    options = {
+        'node_color': 'red',
+        'node_size': 1000,
+        'width': 1,
+        'arrowstyle': '-|>',
+        'arrowsize': 12,
+        }
+    nx.draw(graph, pos, with_labels=True, **options)
+
+
+
+def plot_from_model_bnlearn(model):
+    # plot
+    g = gr.Digraph()
+    
+    for i in range(0, len(model['model_edges'])):
+        g.edge(*model['model_edges'][i])
+    return g
+
+
+def plot_from_model_pgmpy(edges):
+    # plot
+    edges = [el for el in edges] #unpack
+    g = gr.Digraph()
+    
+    for i in range(0, len(edges)):
+        g.edge(edges[i][0],edges[i][1])
+    return g
