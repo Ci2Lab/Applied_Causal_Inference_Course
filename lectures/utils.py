@@ -401,7 +401,7 @@ def generate_dyspnoea_dataset():
     DAG = bn.make_DAG(edges)
     df = bn.import_example('asia')
     DAG = bn.parameter_learning.fit(DAG, df, methodtype='bayes', verbose = 0)
-    df = bn.sampling(DAG, n=10000)
+    df = bn.sampling(DAG, n=20000)
     
     df = df.rename(columns = {'asia' : 'tuberculosis_area', 
                                 'tub' : 'tuberculosis', 
@@ -412,7 +412,19 @@ def generate_dyspnoea_dataset():
     return df
 
 
-def plot_dyspnoea_dataset():
+
+# %% PLOT functions
+
+def plot_from_edges(edges):
+    """ 'edges' is a Python list describing the directions of arrows  
+    """
+    g = gr.Digraph()
+    for i in range(0, len(edges)):
+        g.edge(*edges[i])
+    return g
+
+
+def plot_dyspnoea_dataset(mode = "graphviz"):
     # plot ground truth using bnlearn
     # plt.figure();
     # params_static = {
@@ -422,7 +434,7 @@ def plot_dyspnoea_dataset():
     # G = bn.plot(DAG, node_color='red', node_size=5000, params_static = params_static)
 
     # plot using nx
-    plt.figure();
+    # plt.figure();
     
     edges = [('tuberculosis_area', 'tuberculosis'),
              ('tuberculosis', 'dyspnea'),
@@ -433,17 +445,22 @@ def plot_dyspnoea_dataset():
               ('smoke', 'bronchitis'),
               ('bronchitis', 'dyspnea')]
     
-    DAG = bn.make_DAG(edges)
-    graph = nx.DiGraph(DAG['adjmat'])
-    pos = nx.nx_agraph.graphviz_layout(graph, prog="neato")
-    options = {
-        'node_color': 'red',
-        'node_size': 1000,
-        'width': 1,
-        'arrowstyle': '-|>',
-        'arrowsize': 12,
-        }
-    nx.draw(graph, pos, with_labels=True, **options)
+    if mode == "networkx":
+        DAG = bn.make_DAG(edges)
+        graph = nx.DiGraph(DAG['adjmat'])
+        pos = nx.nx_agraph.graphviz_layout(graph, prog="neato")
+        options = {
+            'node_color': 'red',
+            'node_size': 1000,
+            'width': 1,
+            'arrowstyle': '-|>',
+            'arrowsize': 12,
+            }
+        nx.draw(graph, pos, with_labels=True, **options)
+    
+    elif mode == "graphviz":
+        g =  plot_from_edges(edges)
+        return g
 
 
 
