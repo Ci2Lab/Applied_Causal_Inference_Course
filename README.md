@@ -34,7 +34,7 @@ Thanks
 |   | 3-[Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb) |  [Discussion](./lectures/CH-3-Discussion-Graphical-Causal-Models.ipynb)  |
 |   | 4-[Structured Causal Models](./lectures/CH-4-SCM.ipynb) |    |
 |   | 5-[Structure learning](./lectures/CH-5-Causal-structure-learning.ipynb) |     |
-|   | 6-[Time series](./lectures/CH-6-time_series.ipynble) |    |
+|   | 6-[Time series](./lectures/CH-6-time_series.ipynb) |    |
 
 
 
@@ -55,6 +55,8 @@ Thanks
 - [pgmpy](https://pgmpy.org/). Pure python implementation for Bayesian Networks. Implementations of various alogrithms for Structure Learning, Parameter Estimation, Approximate (Sampling Based) and Exact inference, and Causal Inference are available.
 
 - [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html). Library for learning the graphical structure of Bayesian networks in Python. Build on top of the pgmpy library but a bit easier to use.
+
+-[gCastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle). Causal structure learning containing various functionality related to causal learning and evaluation, including: data generation and processing: data simulation, causal structure learning and evaluation metrics.
 
 
 ## Suggested Books
