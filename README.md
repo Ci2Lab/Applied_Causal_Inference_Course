@@ -31,7 +31,7 @@ Thanks
 |---|---------------------------------------------|---------------------------|
 |   | 1-[Introduction to Causality](./lectures/CH-1-Introduction-to-Causality.ipynb)  |       | 
 |   | 2-[Observation to Intervention](./lectures/CH-2-Observation-to-Intervention.ipynb)   |  [Discussion](./lectures/CH-2-Discussion-Observation-to-Intervention.ipynb)       | 
-|   | 3-[Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb) |  [Discussion](./lectures/CH-3-Discussion-Graphical-Causal-Models.ipynb)  |
+|   | 3-[Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb) |   |
 |   | 4-[Structured Causal Models](./lectures/CH-4-SCM.ipynb) |    |
 |   | 5-[Structure learning](./lectures/CH-5-Causal-structure-learning.ipynb) |     |
 |   | 6-[Time series](./lectures/CH-6-time_series.ipynb) |    |
