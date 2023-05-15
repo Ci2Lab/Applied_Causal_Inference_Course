@@ -56,7 +56,7 @@ Thanks
 
 - [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html). Library for learning the graphical structure of Bayesian networks in Python. Build on top of the pgmpy library but a bit easier to use.
 
--[gCastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle). Causal structure learning containing various functionality related to causal learning and evaluation, including: data generation and processing: data simulation, causal structure learning and evaluation metrics.
+- [gCastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle). Causal structure learning containing various functionality related to causal learning and evaluation, including: data generation and processing: data simulation, causal structure learning and evaluation metrics.
 
 
 ## Suggested Books
