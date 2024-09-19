@@ -5,12 +5,11 @@
 This course is an overview of applied causal inference. The course starts with an introduction to causal inference. Then, we talk about moving from observation to intervention. We learn about directed acyclic graphs and non-parametric structural equation models to create causal models. Furthermore, we use various realistic examples to understand better the concepts we introduced in each chapter. By the end of this course, students will be able to develop familiarity with causal models for investigating a wide range of questions about the world works. 
 
 
-This is an under development course, so keep tracking the course and let me know your feedback.
+This is an under development course, so keep tracking our course and let us know your feedback.
 
 Thanks
 
-[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh)
-
+[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh), [Michele Gazzea](https://www.hvl.no/en/employee/?user=Michele.Gazzea&user=Michele.Gazzea) & [Amir Miraki](https://www.hvl.no/en/employee/?user=Amir.Miraki)
 
 ### Goals:
 - Information-era literacy: learning to be informed citizens, consumers, and hopefully producers of information.
@@ -37,6 +36,16 @@ Thanks
 |   | 5-[Structure learning](./lectures/CH-5-Causal-structure-learning.ipynb) |     |
 |   | 6-[Time series](./lectures/CH-6-time_series.ipynb) |    |
 
+
+
+## Course Offering
+
+|   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
+|---|---------------------------------------------|---------------------------|-------------|--------------|----------|
+|   | IE-AUT 6: Introduction to Causal Inference  | University of Padova      | Italy       | Summer       | 2022     |
+|   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
+|   | IE-AUT 6: Applied Causal Inference         | University of Padova      | Italy       | Summer       | 2023     |
+|   |                                             |                           |             |              |          |
 
 
 ## Suggested Python Libraries 
