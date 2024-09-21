@@ -1,0 +1,9 @@
+digraph {
+	T [label="Taste Score (T)"]
+	P [label="Price (P)"]
+	A [label="Ad Seen (A)"]
+	Y [label="Purchase (Y)"]
+	T -> Y
+	P -> Y
+	A -> Y
+}
