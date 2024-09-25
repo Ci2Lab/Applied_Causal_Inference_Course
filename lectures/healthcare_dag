@@ -1,0 +1,8 @@
+digraph {
+	Age
+	Treatment
+	Survival
+	Age -> Treatment
+	Age -> Survival
+	Treatment -> Survival
+}
