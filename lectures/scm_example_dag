@@ -1,0 +1,13 @@
+digraph {
+	X1 [label=X_1]
+	X2 [label=X_2]
+	Y [label=Y]
+	UX1 [label="U_{X1}"]
+	UY [label=U_Y]
+	UX2 [label="U_{X2}"]
+	UX1 -> X1
+	X1 -> Y
+	UY -> Y
+	Y -> X2
+	UX2 -> X2
+}

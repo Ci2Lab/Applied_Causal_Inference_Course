@@ -1,9 +1,13 @@
 digraph {
-	T [label="Taste Score (T)"]
-	P [label="Price (P)"]
-	A [label="Ad Seen (A)"]
-	Y [label="Purchase (Y)"]
-	T -> Y
-	P -> Y
-	A -> Y
+	X1 [label="X_1 (Marketing Investment)"]
+	Y [label="Y (Revenue)"]
+	X2 [label="X_2 (Market Share)"]
+	UX1 [label="U_{X1} (Noise)"]
+	UY [label="U_Y (Noise)"]
+	UX2 [label="U_{X2} (Noise)"]
+	UX1 -> X1
+	X1 -> Y
+	UY -> Y
+	Y -> X2
+	UX2 -> X2
 }

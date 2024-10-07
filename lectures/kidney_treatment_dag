@@ -1,0 +1,8 @@
+digraph {
+	Z [label="Stone Size (Z)"]
+	T [label="Treatment (T)"]
+	R [label="Recovery (R)"]
+	Z -> T
+	Z -> R
+	T -> R
+}

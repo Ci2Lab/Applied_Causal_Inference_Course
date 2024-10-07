@@ -1,0 +1,12 @@
+digraph {
+	X [label="X (Exogenous Variable)"]
+	T [label="T (Intervened)"]
+	Y [label="Y (Outcome)"]
+	UT [label="U_T (Noise for T)"]
+	UY [label="U_Y (Noise for Y)"]
+	X -> T
+	X -> Y
+	T -> Y
+	UT -> T
+	UY -> Y
+}
