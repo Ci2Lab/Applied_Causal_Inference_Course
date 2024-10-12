@@ -53,14 +53,12 @@ Thanks,
 
 ## Suggested Books
 
-All these books are open-access!
-
-- **The Effect: An Introduction to Research Design and Causality** by Nick Huntington-Klein (2023) - A beginner-friendly, open-access book on causality.
-- **Causal Inference, The Mixtape** by Scott Cunningham (2023) - A well-written introduction to causal inference.
-- **The Elements of Causal Inference** by Jonas Peters et al. (2017) - A technical book on causal inference in the context of machine learning.
-- **Applied Causal Inference Powered by ML and AI** by Victor Chernozhukov et al. (2024) - A comprehensive technical book merging causal inference with modern ML/AI techniques.
-- **Introduction to Causal Inference** by Brady Neal (2020) - A structured, open-access textbook explaining the fundamentals of causal inference.
-- **Causal Inference: What If?** by Miguel Hernan and Jamie Robins (2024) - A comprehensive textbook on causal inference with an academic focus.
+- **[The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net)** by Nick Huntington-Klein (2023) - A beginner-friendly, open-access book on causality.
+- **[Causal Inference, The Mixtape](https://mixtape.scunning.com)** by Scott Cunningham (2023) - A well-written introduction to causal inference.
+- **[The Elements of Causal Inference](https://mitpress.mit.edu/books/elements-causal-inference)** by Jonas Peters et al. (2017) - A technical book on causal inference in the context of machine learning.
+- **[Applied Causal Inference Powered by ML and AI](https://www.causalml-book.org)** by Victor Chernozhukov et al. (2024) - A comprehensive technical book merging causal inference with modern ML/AI techniques.
+- **[Introduction to Causal Inference](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf)** by Brady Neal (2020) - A structured, open-access textbook explaining the fundamentals of causal inference.
+- **[Causal Inference: What If?](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/04/hernanrobins_WhatIf_26apr24.pdf)** by Miguel Hernan and Jamie Robins (2024) - A comprehensive textbook on causal inference with an academic focus.
 
 ---
 
