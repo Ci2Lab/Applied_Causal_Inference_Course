@@ -2,94 +2,69 @@
 
 ![img](lectures/img/causality_intro_image.png)
 
-This course is an overview of applied causal inference. The course starts with an introduction to causal inference. Then, we talk about moving from observation to intervention. We learn about directed acyclic graphs and non-parametric structural equation models to create causal models. Furthermore, we use various realistic examples to understand better the concepts we introduced in each chapter. By the end of this course, students will be able to develop familiarity with causal models for investigating a wide range of questions about the world works. 
+This course offers a comprehensive overview of applied causal inference, focusing on developing a deep understanding of how to analyze and model cause-and-effect relationships in various domains.
 
+The course begins with an introduction to the foundations of causal inference, including core concepts like correlation, association, and the limitations of traditional statistical methods. It then progresses to more advanced topics, such as interventions, counterfactuals, and graphical causal models like Directed Acyclic Graphs (DAGs) and Structural Causal Models (SCMs). Practical examples, real-world case studies, and hands-on activities are used throughout the course to solidify learning.
 
-This is an under development course, so keep tracking our course and let us know your feedback.
+By the end of the course, students will be able to build, interpret, and analyze causal models to address a wide range of scientific and real-world problems using modern data science techniques.
 
-Thanks
+This is an ongoing course, so keep track of updates and feel free to share your feedback.
 
-[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh), [Michele Gazzea](https://www.hvl.no/en/employee/?user=Michele.Gazzea&user=Michele.Gazzea) & [Amir Miraki](https://www.hvl.no/en/employee/?user=Amir.Miraki)
+Thanks,  
+[Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh)
 
-### Goals:
-- Information-era literacy: learning to be informed citizens, consumers, and hopefully producers of information.
-- Understand sources of bias in data (a big challenge in data science). 
-- Understand the importance of the causal discovery. 
-- Understand the basics of causal models. 
+---
 
+### Course Goals:
+- Build data literacy to critically engage with information and data in the modern world.
+- Develop an understanding of bias in data, particularly in the context of causal discovery.
+- Learn and apply the principles of causal modeling using DAGs and SCMs to infer cause-and-effect relationships.
+- Gain practical experience in using causal inference techniques to analyze real-world data.
 
+---
 
 ### Learning Objectives:
-1. Translate scientific questions and background knowledge into a causal model. 
-2. Understand properties of causal models. 
-3. Begin to develop familiarity with the uses of causal models for investigating a wide range of questions about the real world. 
+1. Translate scientific and practical questions into formal causal models.
+2. Understand the theoretical properties and assumptions underlying causal models.
+3. Apply causal models and methods to investigate questions across a variety of domains, from economics and healthcare to machine learning and AI.
 
+---
 
 # Lectures
 
 |   | **Chapter**                    | **Discussion**            | 
-|---|---------------------------------------------|---------------------------|
-|   | 1-[Introduction to Causality](./lectures/CH-1-Introduction-to-Causality.ipynb)  |       | 
-|   | 2-[Observation to Intervention](./lectures/CH-2-Observation-to-Intervention.ipynb)   |  [Discussion](./lectures/CH-2-Discussion-Observation-to-Intervention.ipynb)       | 
-|   | 3-[Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb) |   |
-|   | 4-[Structured Causal Models](./lectures/CH-4-SCM.ipynb) |    |
-|   | 5-[Structure learning](./lectures/CH-5-Causal-structure-learning.ipynb) |     |
-|   | 6-[Time series](./lectures/CH-6-time_series.ipynb) |    |
+|---|---------------------------------|---------------------------|
+|   | 1 - [Introduction to Causality](./lectures/CH-1-Introduction-to-Causality.ipynb) | Overview of causality, correlation vs. causation, and the role of observational data in making causal claims. | 
+|   | 2 - [Ladder of Causality](./lectures/CH-2-Ladder-of-Causality.ipynb) | Introduction to Judea Pearl’s Ladder of Causality: from associations to interventions and counterfactuals. [Activity](./lectures/CH-2-Activity-Bias.ipynb) | 
+|   | 3 - [Graphical Causal Models](./lectures/CH-3-Graphical-Causal-Models.ipynb) | Learning how to represent and analyze causal relationships using Directed Acyclic Graphs (DAGs) and their role in identifying independence and dependence relationships. |
+|   | 4 - [Structural Causal Models](./lectures/CH-4-Structural-Causal-Models.ipynb) | Introduction to Structural Causal Models (SCMs), including how they capture the data generation process and formalize causal relationships. |
+|   | 5 - [Causal Model Discovery from Data](./lectures/CH-5-Causal-Model-Discovery.ipynb) | Practical approaches to discovering causal models from observational data, including an overview of constraint-based and score-based methods. |
 
-
-
-## Course Offering
-
-|   | **Course official name**                    | **University**            | **Country** | **Semester** | **Year** |
-|---|---------------------------------------------|---------------------------|-------------|--------------|----------|
-|   | IE-AUT 6: Introduction to Causal Inference  | University of Padova      | Italy       | Summer       | 2022     |
-|   | PCS956: Trends in Applied Machine Learning  | Western Norway University | Norway      | Fall         | 2022     |
-|   | IE-AUT 6: Applied Causal Inference         | University of Padova      | Italy       | Summer       | 2023     |
-|   |                                             |                           |             |              |          |
-
+---
 
 ## Suggested Python Libraries 
 
-- [DoWhy](https://py-why.github.io/dowhy/index.html). A Python library that provides several tools for causal inference, modeling causal assumptions and validating them.
+- [DoWhy](https://py-why.github.io/dowhy/index.html). A Python library that provides several tools for causal inference, modeling causal assumptions, and validating them.
+- [pgmpy](https://pgmpy.org/). Python library for Bayesian Networks, supporting structure learning, parameter estimation, inference, and causal discovery.
+- [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html). Library for learning the graphical structure of Bayesian networks in Python, based on the pgmpy library but with simplified usage.
+- [gCastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle). A library for causal structure learning, featuring data simulation, structure learning, and evaluation tools.
 
-- [pgmpy](https://pgmpy.org/). Pure python implementation for Bayesian Networks. Implementations of various alogrithms for Structure Learning, Parameter Estimation, Approximate (Sampling Based) and Exact inference, and Causal Inference are available.
-
-- [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html). Library for learning the graphical structure of Bayesian networks in Python. Build on top of the pgmpy library but a bit easier to use.
-
-- [gCastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle). Causal structure learning containing various functionality related to causal learning and evaluation, including: data generation and processing: data simulation, causal structure learning and evaluation metrics.
-
+---
 
 ## Suggested Books
 
-Not Free, 2018, Causal Inference Concept:
-[link](http://bayes.cs.ucla.edu/WHY/)
+All these books are open-access!
 
-![img](lectures/img/Book_of_why.jpg)
+- **The Effect: An Introduction to Research Design and Causality** by Nick Huntington-Klein (2023) - A beginner-friendly, open-access book on causality.
+- **Causal Inference, The Mixtape** by Scott Cunningham (2023) - A well-written introduction to causal inference.
+- **The Elements of Causal Inference** by Jonas Peters et al. (2017) - A technical book on causal inference in the context of machine learning.
+- **Applied Causal Inference Powered by ML and AI** by Victor Chernozhukov et al. (2024) - A comprehensive technical book merging causal inference with modern ML/AI techniques.
+- **Introduction to Causal Inference** by Brady Neal (2020) - A structured, open-access textbook explaining the fundamentals of causal inference.
+- **Causal Inference: What If?** by Miguel Hernan and Jamie Robins (2024) - A comprehensive textbook on causal inference with an academic focus.
 
-
-Free, 2019 ML for Causal Inference:
-[link](https://mitpress.mit.edu/books/elements-causal-inference)
-
-![img](lectures/img/elements_of_causal_inference_book.jpg)
-
-Free, 2020 Causal Inference Theory:
-[link](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
-
-![img](lectures/img/What_if.jpg)
- 
-
-## Suggested Blogs
-
-*Bringing More Causality to Analytics*, by Motif Analytics Inc., 2022 [Link](https://motifanalytics.medium.com/bringing-more-causality-to-analytics-d378108bb15)
-
-*Causality for Machine Learning* by Cloudera Inc., 2020 [Link](https://ff13.fastforwardlabs.com/#why-are-we-interested-in-causal-inference%3F)
-
-*From How to Why* by Ericsson, 2020 [Link](https://www.ericsson.com/en/blog/2020/2/causal-inference-machine-learning)
-
+---
 
 ## Acknowledgments
 
-This course is developed by a partial support from RCN-INTPART DTRF Project.
+This course was developed with partial support from the RCN-INTPART DTRF Project.  
 https://www.bigdata.vestforsk.no/ongoing/intpart-dtrf
-
-
