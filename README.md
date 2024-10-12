@@ -13,26 +13,22 @@ This is an ongoing course, so keep track of updates and feel free to share your 
 Thanks,  
 [Reza Arghandeh](https://www.hvl.no/en/employee/?user=Reza.Arghandeh)
 
----
-
-### Course Goals:
-- Build data literacy to critically engage with information and data in the modern world.
-- Develop an understanding of bias in data, particularly in the context of causal discovery.
-- Learn and apply the principles of causal modeling using DAGs and SCMs to infer cause-and-effect relationships.
-- Gain practical experience in using causal inference techniques to analyze real-world data.
 
 ---
 
 ### Learning Objectives:
-1. Translate scientific and practical questions into formal causal models.
-2. Understand the theoretical properties and assumptions underlying causal models.
-3. Apply causal models and methods to investigate questions across a variety of domains, from economics and healthcare to machine learning and AI.
+
+- Develop an understanding of how to use causal inference to move beyond correlation and address cause-and-effect relationships in data.
+- Learn to model causal structures using Directed Acyclic Graphs (DAGs) and apply them to real-world scenarios.
+- Understand the transition from observational data to making causal claims through interventions and counterfactual analysis.
+- Gain practical experience in using Structural Causal Models (SCMs) to formalize the data generation process and investigate causal effects.
+- Explore data-driven causal discovery methods and learn how to discover causal relationships from observational data using modern algorithms.
 
 ---
 
 # Lectures
 
-|   | **Chapter**                    | **Discussion**            | 
+|   | **Chapter**                    | **Description**            | 
 |---|---------------------------------|---------------------------|
 |   | 1 - [Introduction to Causality](./lectures/CH-1-Introduction-to-Causality.ipynb) | Overview of causality, correlation vs. causation, and the role of observational data in making causal claims. | 
 |   | 2 - [Ladder of Causality](./lectures/CH-2-Ladder-of-Causality.ipynb) | Introduction to Judea Pearl’s Ladder of Causality: from associations to interventions and counterfactuals. [Activity](./lectures/CH-2-Activity-Bias.ipynb) | 
@@ -44,14 +40,24 @@ Thanks,
 
 ## Suggested Python Libraries 
 
-- [DoWhy](https://py-why.github.io/dowhy/index.html). A Python library that provides several tools for causal inference, modeling causal assumptions, and validating them.
-- [pgmpy](https://pgmpy.org/). Python library for Bayesian Networks, supporting structure learning, parameter estimation, inference, and causal discovery.
-- [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html). Library for learning the graphical structure of Bayesian networks in Python, based on the pgmpy library but with simplified usage.
-- [gCastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle). A library for causal structure learning, featuring data simulation, structure learning, and evaluation tools.
+- [DoWhy](https://py-why.github.io/dowhy/index.html): A Python library that provides several tools for causal inference, modeling causal assumptions, and validating them. It is user-friendly and widely used for causal inference tasks, including treatment effect estimation and counterfactual analysis.
+  
+- [pgmpy](https://pgmpy.org): Python library for Probabilistic Graphical Models, supporting structure learning, parameter estimation, inference, and causal discovery. It's a more advanced library for those interested in Bayesian networks and probabilistic models.
+
+- [bnlearn](https://erdogant.github.io/bnlearn/pages/html/index.html): A library for learning the graphical structure of Bayesian networks in Python. It builds on pgmpy but with a simpler and more user-friendly interface, making it a good starting point for Bayesian network tasks.
+
+- [gCastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle): A powerful library for causal structure learning that supports a variety of algorithms, including constraint-based and score-based methods for discovering causal graphs from observational data.
+
+- [EconML](https://github.com/microsoft/EconML): Developed by Microsoft, this library is designed for estimating heterogeneous treatment effects using machine learning techniques. It combines econometrics and machine learning, offering advanced models like Double Machine Learning (DML) and Targeted Regularized Learning (TRL).
+
+- [CausalNex](https://causalnex.readthedocs.io/en/latest/): A library focusing on causal structure learning, particularly for Bayesian networks. It offers an intuitive API for building and visualizing causal graphs and provides support for interventions and counterfactual queries.
+
 
 ---
 
 ## Suggested Books
+
+All of these books are open access.
 
 - **[The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net)** by Nick Huntington-Klein (2023) - A beginner-friendly, open-access book on causality.
 - **[Causal Inference, The Mixtape](https://mixtape.scunning.com)** by Scott Cunningham (2023) - A well-written introduction to causal inference.
